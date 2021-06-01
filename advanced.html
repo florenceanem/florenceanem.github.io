@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced.css">
+    <title>AdvancedSearch</title>
+</head>
+<body>
+    <div id="navbar">
+        <span><a href="index.html" class="navtext">Google Search</a></span>
+        <div class="image-class"><img class="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" ></div>
+    </div>
+    <div class="main">
+        <div class="header2">
+    <form action="https://www.google.com/search">
+            <div>Advanced Search</div>
+        </div>
+        <div class="border"></div>
+    </div>
+    <div class="grid">
+        <div class="main1">
+            <h3>Find pages with... </h3>
+            <div class="grid-item">
+                <label for="" >all these words:</label></div>
+                <div class="grid-item"><input type="text" name="q" class="input"></div>
+            <br>
+            <div class="grid-item">
+                <label for=""> exact word or phrase:</label></div>
+                <div class="grid-item"><input type="text" name="q" class="input"></div>
+            <br>
+            <div class="grid-item">
+                <label for=""> any of these words:</label></div>
+                <div class="grid-item"><input type="text" name="q" class="input"></div>
+            <br>
+            <div class="grid-item">
+                <label for="">none of  these words:</label></div>
+                <div class="grid-item"><input type="text" name="q" class="input"></div>
+            <br>
+            <div class="grid-item1">
+                </span><label for=""class="label"> numbers ranging from:  </label >
+                    <input type="text" class="input-small" name="as_nlo">&nbsp  &nbsp 
+                    <span class="padding">to</span>
+                    <input type="text" class="input-small" name="as_nhi">
+                </div>
+            <br>
+        </div>
+
+            <div class="border"></div>
+            <div><h3 style="margin-bottom: 10px;">Then narrow your<br>results by... </h3></div><br>
+        <div class="main2">
+            
+            <div class="grid-item">
+                <label for="language">language:</label></div> 
+                <div class="grid-item"><select name="lr" id="" class="input1">
+                    <option value="">any language</option>
+                    <option value="lang_en">English</option>
+                    <option value="lang_hi">Hindi</option>
+                    <option value="lang_es">Spanish</option>
+                    
+                </select></div>
+            
+            <br>  
+            <div class="grid-item">
+                <label for="region">region:</label></div>
+                <div class="grid-item"><select name="cr" id="" class="input1">
+                    <option value="">any region</option>
+                    <option value="countryIN">India</option>
+                    <option value="countryES">Spain</option>
+                    <option value="countryIT">Italy</option>
+                </select>
+            </div> 
+            <br>  
+            <div class="grid-item">
+                <label for="lastupdate">last update:</label></div> 
+                <div class="grid-item"> <select name="as_qdr" id="lastupdate" class="input1">
+                    <option value="all">anytime</option>
+                    <option value="d">past 24 hours</option>
+                    <option value="w">past week</option>
+                    <option value="m">past month</option>
+                    <option value="y">past year</option>
+                </select>
+            </div> 
+            <br> 
+            <div class="grid-item">
+                <label for="" >site or domain:</label></div>
+                <div class="grid-item"><input type="text" name="q" class="input"></div>
+            <br> 
+            <div class="grid-item">
+                <label for="terms">terms appearing:</label></div>
+                <div class="grid-item"><select name="as_occt" id="terms" class="input1">
+                    <option value="any">anywhere in the page</option>
+                    <option value="title">in the title of the page</option>
+                    <option value="body">in the text of the page</option>
+                    <option value="url">in URLs of the page</option>
+                    <option value="links">in links to the page</option>
+                </select></div>
+             <br> 
+            <div class="grid-item ">
+                <a href="https://support.google.com/websearch/answer/510?p=adv_safesearch&hl=en&visit_id=637580927944665950-18276118&rd=1" class="bluetext"> <label for="as_safesearch_input" >SafeSearch</label></div></a>
+                <div class="grid-item"><select name="safeSearch" id="safeSearch" class="input1">
+                    <option value="images">show explicit results</option>
+                    <option value="active">hide explicit results</option>
+                </select>
+            </div> <br> 
+            <div class="grid-item">
+                <label for="type">file type:</label></div>
+                <div class="grid-item"> <div class="grid-item"><select name="as_filetype" id="type" class="input1">
+                    <option value="">any format</option>
+                    <option value="pdf">.pdf</option>
+                    <option value="doc">.doc</option>
+                    <option value="ppt">.ppt</option>
+                </select></div>
+            </div> <br> 
+            <div class="grid-item">
+                <a href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637580927944665950-18276118&rd=1" class="bluetext"><label for="rights">usage rights:</label></div> </a>
+                <div class="grid-item"> <select name="as_rights_input" id="rights" class="input1">
+                    <option value="">not filtered by licence</option>
+                    <option value="f">free to use or share</option>
+                    <option value="fm">free to use share or modify</option>
+                </select>
+            </div> <br> 
+        </div>
+        
+        <div class="footer1">
+                <button class="button" type="submit">Advanced Search</button>
+        </div><br><br>
+    </form>
+           <div class="border" style="margin-bottom: 20px;"></div>
+ 
+</body>
+</html>

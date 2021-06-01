@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#navbar {
+    top: 15px;
+    right: 16px; 
+}
+.navtext{
+    color:black;
+    text-decoration: none;  
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.navtext:hover{
+    text-decoration: underline;
+}
+.image{
+    height: 24px;
+    width:74px; 
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.header2{
+    margin: 0 40px;
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.border{
+    border: 1px solid #ebebeb;
+    margin-left:none;
+}
+
+.grid{
+   
+    margin-left: 40px;
+    margin-top: 53px;
+    grid-template-columns: 200px 700px 200px auto;
+    
+    
+    
+}
+h3{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.grid-item{
+
+   display: inline-block;
+   width: 240px;
+   margin-bottom: 15px;
+}
+.grid-item1{
+    
+	margin:0 0 20px
+    }
+
+.input{
+    height: 25px;
+    width: 300px; 
+    border: 2px solid rgba(231, 230, 230, 0.933)
+    
+    
+}
+input:focus,.input1:focus{
+    border: 1px solid #045ba7;
+   
+    outline: none;
+}
+
+.input-small{
+    height: 25px;
+    width: 125px; 
+    border: 2px solid rgba(231, 230, 230, 0.933)
+    
+}
+.input1{
+    height: 30px;
+    width: 308px; 
+    background-color: #f5f5f5;
+    border-color: #c6c6c6;
+    font-weight: bold;
+    font-size: 12px;
+    color: grey;
+  
+}
+
+ .button{
+    margin-left: 430px;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: white;
+    height: 30px;
+    min-width: 120px;
+    font-size: 11px;
+ }
+.main2{
+    
+    margin-top: 0;
+}
+.dropdowntext{
+    font-weight: bold;
+    font-size: 12px;
+    color: grey;
+}
+.bluetext{
+    color: blue;
+    text-decoration: none;
+}
+.bluetext:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.padding{
+    padding-right: 10px;
+    padding-right: 10px;
+}
+.label{
+    padding-right: 110px;
+}
